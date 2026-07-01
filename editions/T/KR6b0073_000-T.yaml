@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6b0073/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大魚事經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T04/T04n0216.xml
+    old_id: T04n0216
+hash: sha256:192d8a42f2e225b8ec546f392f0f0560c71f9f13b62ffd33b67c3ebbe2d176e8

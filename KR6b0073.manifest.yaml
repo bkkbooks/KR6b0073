@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6b0073/v1
+canonical_location: https://kanripo.org/bkk/KR6b0073/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大魚事經
+  identifiers:
+    alt_id:
+    - T04n0216
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T04/T04n0216.xml
+    old_id: T04n0216
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6b0073_000.yaml, hash: 'sha256:192d8a42f2e225b8ec546f392f0f0560c71f9f13b62ffd33b67c3ebbe2d176e8'}
+  - {seq: 1, filename: KR6b0073_001.yaml, hash: 'sha256:02f9a7d0bb7e59c963d3b02d6aa97cbe77f37407e13252de1125edfc6ed5b340'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6b0073_001.markers.yaml, hash: 'sha256:1211af332e098c68d4e349b57c07693aa1020bac0f2751ad35e069f26a9d3132'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6b0073_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 623
+  label: 佛說大魚事經
+  type: juan
+  level: 1
+hash: sha256:0f19932f188dc70ff98e15f2f54a19bfbb7a22d3ac6e5cf1f44ef36972470e41
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
