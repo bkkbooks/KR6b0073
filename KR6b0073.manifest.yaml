@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6b0073/v1
 canonical_location: https://kanripo.org/bkk/KR6b0073/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大魚事經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6b0073_000.yaml, hash: 'sha256:192d8a42f2e225b8ec546f392f0f0560c71f9f13b62ffd33b67c3ebbe2d176e8'}
-  - {seq: 1, filename: KR6b0073_001.yaml, hash: 'sha256:ce55a1ca4895e110b70085e573bdc5058733249a6906d2fffead6660aafcbb04'}
+  - {seq: 1, filename: KR6b0073_001.yaml, hash: 'sha256:29a63ecd9a6bfd5fc1e99066692b6649c913ab08f80a016a68bdc7faef0cad44'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6b0073_000.markers.yaml, hash: 'sha256:fac489418f10d07669cd0dde8801da33625d78fd4240a2e60f67e94852c88578'}
-  - {seq: 1, role: markers, filename: assets/KR6b0073_001.markers.yaml, hash: 'sha256:cfbc3f2de21a1edd043c4ee566f7fe8e94266d57f2a5b7ad97d04036f9a8e817'}
+  - {seq: 1, role: markers, filename: assets/KR6b0073_001.markers.yaml, hash: 'sha256:27c65db51881d0f12c18501c2c7e67158fb904a1ca4915551b57e9a010278dce'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說大魚事經
   type: juan
   level: 1
-hash: sha256:a844c4dbcaf2dec8db3d0699a0df5d30e3ef56add2bb8b13f056ca9ae80b7219
+hash: sha256:1ba651cc91ee63772c3980573b6775c0b82cc1bb0b94fed39ae70615052dba45
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
